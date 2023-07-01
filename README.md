@@ -1,4 +1,4 @@
-#Data Structures Tutorial: Stack
+# Data Structures Tutorial: Stack
 
 # Introduction to Stacks
 
