@@ -1,12 +1,12 @@
 #Data Structures Tutorial: Stack
 
-#I. Introduction to Stacks
+# Introduction to Stacks
 
 In computer science, a stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle. It represents a collection of elements where the insertion and removal of items take place at one end called the top of the stack.
 
 A stack can be visualized as a stack of books where the last book placed on top is the first one to be removed. The operations performed on a stack include inserting an item onto the stack (push), removing an item from the stack (pop), and accessing the top item without removal (peek).
 
-#II. Stack Operations
+# Stack Operations
 
 A. Push Operation:
 • The push operation adds an element to the top of the stack.
@@ -20,11 +20,11 @@ C. Peek Operation:
 • The peek operation returns the value of the top element without removing it from the stack.
 • Implementation: We can access the last item in the Python list without removing it using indexing.
 
-#III. Implementing a Stack using an Array or Linked List
+# Implementing a Stack using an Array or Linked List
 
 A stack can be implemented using either an array or a linked list. In the exercise provided, we used an array-based implementation. Alternatively, a linked list can be used where each node in the linked list represents an element in the stack.
 
-#IV. Common Applications of Stacks
+# Common Applications of Stacks
 
 Stacks have various applications in computer science and software development, including:
 
@@ -35,11 +35,11 @@ Stacks have various applications in computer science and software development, i
 • Implementing recursive algorithms iteratively
 • Managing system resources and memory allocation
 
-#V. Time and Space Complexity Analysis
+# Time and Space Complexity Analysis
 
 The time and space complexity of stack operations depend on the underlying implementation. In an array-based implementation, the time complexity of push, pop, and peek operations is O(1) since accessing the last element of an array takes constant time. Similarly, the space complexity is O(n) where n is the number of elements in the stack.
 
-#VI. Challenge Time
+# Challenge Time
 
 Let's try your understaing by completing [this challenge](https://github.com/Amuleka/ds-first-draft/blob/main/first-draft-incomplete.py)
 
