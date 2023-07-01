@@ -48,7 +48,7 @@ A string with balanced parentheses has every opening parentheses, bracket,
 or brace matched with a closing one of the same type and in the correct order.
 '''
 
-# Stack implementation
+Stack implementation
 
 class Stack:
 def **init**(self): # Initialize the stack
@@ -85,7 +85,7 @@ closing = ")}]"
 
     return stack.isEmpty()
 
-# Test cases
+Test cases
 
 test_cases = [
 ("()", True),
@@ -96,7 +96,7 @@ test_cases = [
 ("([)]", False)
 ]
 
-# Test the isBalanced function
+Test the isBalanced function
 
 for i, (input_string, expected) in enumerate(test_cases):
 result = isBalanced(input_string)
