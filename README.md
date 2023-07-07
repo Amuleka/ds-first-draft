@@ -1,24 +1,25 @@
 # Data Structures Tutorial: Stack
 
-# Introduction to Stacks
-
+I. Introduction to Stacks
 In computer science, a stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle. It represents a collection of elements where the insertion and removal of items take place at one end called the top of the stack.
-
 A stack can be visualized as a stack of books where the last book placed on top is the first one to be removed. The operations performed on a stack include inserting an item onto the stack (push), removing an item from the stack (pop), and accessing the top item without removal (peek).
 
 # Stack Operations
 
 A. Push Operation:
-• The push operation adds an element to the top of the stack.
-• Implementation: We can use the append() method of a Python list to add an item to the stack.
 
-B. Pop Operation:
-• The pop operation removes the top element from the stack and returns its value.
-• Implementation: We can use the pop() method of a Python list to remove the last item from the stack.
+    The push operation adds an element to the top of the stack.
+    Implementation: We can use the append() method of a Python list to add an item to the stack.
 
-C. Peek Operation:
-• The peek operation returns the value of the top element without removing it from the stack.
-• Implementation: We can access the last item in the Python list without removing it using indexing.
+# Pop Operation:
+
+    The pop operation removes the top element from the stack and returns its value.
+    Implementation: We can use the pop() method of a Python list to remove the last item from the stack.
+
+# Peek Operation:
+
+    The peek operation returns the value of the top element without removing it from the stack.
+    Implementation: We can access the last item in the Python list without removing it using indexing.
 
 # Implementing a Stack using an Array or Linked List
 
@@ -28,12 +29,12 @@ A stack can be implemented using either an array or a linked list. In the exerci
 
 Stacks have various applications in computer science and software development, including:
 
-• Function call stack in programming languages
-• Expression evaluation and syntax parsing
-• Undo and redo operations in text editors
-• Backtracking algorithms
-• Implementing recursive algorithms iteratively
-• Managing system resources and memory allocation
+    Function call stack in programming languages
+    Expression evaluation and syntax parsing
+    Undo and redo operations in text editors
+    Backtracking algorithms
+    Implementing recursive algorithms iteratively
+    Managing system resources and memory allocation
 
 # Time and Space Complexity Analysis
 
