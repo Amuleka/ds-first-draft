@@ -11,12 +11,12 @@ A. Push Operation:
     The push operation adds an element to the top of the stack.
     Implementation: We can use the append() method of a Python list to add an item to the stack.
 
-# Pop Operation:
+B. Pop Operation:
 
     The pop operation removes the top element from the stack and returns its value.
     Implementation: We can use the pop() method of a Python list to remove the last item from the stack.
 
-# Peek Operation:
+C. Peek Operation:
 
     The peek operation returns the value of the top element without removing it from the stack.
     Implementation: We can access the last item in the Python list without removing it using indexing.
